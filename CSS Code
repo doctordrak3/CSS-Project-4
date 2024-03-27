@@ -1,0 +1,175 @@
+html {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-image: url('https://i.stack.imgur.com/1Tzky.png');
+    background-size: cover;
+}
+
+/* Image styling */
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    border: 5px solid rgb(24, 4, 15);
+    background: beige;
+    padding: 20px;
+}
+
+/* Paragraph styling */
+p {
+    width: 50%;
+    margin-left: 0 auto;
+    padding: 10px 50px 30px 0;
+    display: inline-block;
+}
+
+/* Heading styling */
+h1 {
+    background-color: beige;
+    width: 100%;
+    padding: 0px 50px 30px 0;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 0%;
+    display: inline-block;
+}
+
+h2 {
+    background-color: beige;
+    width: 100%;
+    padding: 10px 50px 30px 0;
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 0%;
+    display: inline-block;
+}
+
+h3 {
+    text-align: center;
+}
+
+#Summary {
+    text-align: center;
+}
+
+h4 {
+    width: 100%;
+    /* text-align: center; */
+    padding-left: 0%;
+}
+
+.About {
+    text-align: right;
+}
+
+
+.AboutMeContent {
+    display: inline-flex;
+    /* text-align: center; */
+
+}
+
+
+ul {
+    position: relative;
+    display: inline-block;
+    padding-left: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.work {
+    display: inline-flex;
+    /* text-align: center; */
+}
+
+.education {
+    width: 50vw;
+    /* height: 100px; */
+    background-color: gainsboro;
+
+}
+
+.activities {
+    width: 50vw;
+    /* height: 100px; */
+    background-color: gainsboro;
+
+}
+
+
+.jobs {
+    width: 50vw;
+    /* height: 100px; */
+    background-color: gainsboro;
+    /* text-align: center; */
+
+}
+
+.softwares {
+    width: 50vw;
+    /* height: 100px; */
+    background-color: gainsboro;
+    /* text-align: center; */
+
+}
+
+.bio {
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    padding-left: 0%;
+    padding-top: 2%;
+    text-align: center
+}
+
+.contactme {
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    padding-left: 32%;
+    padding-bottom: 2%;
+    display: inline-table;
+}
+
+
+
+/* Container styling */
+#container {
+    border: solid black 5px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* Using flexbox */
+    justify-content: space-between;
+    /* Align items with space between */
+}
+
+/* Section styling */
+#container section {
+    width: 45%;
+    /* Adjust width */
+}
+
+/* Item within container */
+#container .item {
+    height: 100px;
+    border: solid beige 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+/* Hover effect for item */
+#container .item:hover {
+    border: 5px solid gray;
+}
+
+/* Form styling */
+form {
+    outline: none;
+    margin: 0 auto;
+}
